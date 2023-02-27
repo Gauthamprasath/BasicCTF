@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Challenge 3</title>
+    <link rel="stylesheet" href="css/c3_style.css"/>
+    <script src="static/core.min.js"></script>
+    <script src="static/md5.js"></script>
+    <script src="static/c3_verify.js"></script>
+</head>
+<body>
+<h1 style="font-family: Segoe UI">Challenge 3 - Stop the Crawlers</h1>
+<p style="font-family: Segoe UI;font-weight: bold">Find the flag</p>
+<div class="container">
+    <div class="main">
+        <h2>Flag goes here</h2>
+        <br>
+        <br>
+        <form id="form_id" method="post" name="myform">
+            <label>Flag :</label>
+            <input type="text" name="flag" id="flag"/>
+            <input type="button" value="Flag" id="submit" onclick="validate()"/>
+        </form>
+        <div>
+            <br>
+            <span style="margin-left:18%"><b class="note">You have <span id="displayAttempts"></span> attempts left!</b></span>
+        </div>
+   </div>
+</div>
+<a href="../index.html">Back to Home Page</a>
+</body>
+</html>

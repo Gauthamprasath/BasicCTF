@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Dev Comments: PASSWORD = Here_i_am!!! -->
+    <title>Challenge 1</title>
+    <link rel="stylesheet" href="css/c1_style.css"/>
+    <script src="static/c1_login.js"></script>
+</head>
+<body>
+<h1 style="font-family: Segoe UI">Challenge 1 - SourceCon</h1>
+<div class="container">
+    <div class="main">
+        <h2>Perform an "admin" login!</h2>
+        <br>
+        <br>
+        <form id="form_id" method="post" name="myform">
+            <label>User Name :</label>
+            <input type="text" name="username" id="username"/>
+            <label>Password :</label>
+            <input type="password" name="password" id="password"/>
+            <input type="button" value="Login" id="submit" onclick="validate()"/>
+
+        </form>
+        <div>
+            <br>
+            <span style="margin-left:18%"><b class="note">You have <span id="displayAttempts"></span> attempts left!</b></span>
+        </div>
+   </div>
+</div>
+<a href="../index.html">Back to Home Page</a>
+<!-- Dev Comments: PASSWORD = Here_i_am!!! -->
+</body>
+</html>
