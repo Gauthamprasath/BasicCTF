@@ -22,3 +22,16 @@ a:link, a:visited {
 a:hover, a:active {
     background-color: #138D75;
 }
+A hacker visits a cafe and connects to the freely available public wifi to have some playtime. He tried to scan entire network and saw a service open, on Zack's PC. By shouldersurfing, he also found Zack's username. He bruteforced and managed to get a remote access to the Zack's PC and stole some critical information. Here is the traffic capture file. Analyze what happened.
+1. What service did the hacker target? FTP
+2. What is the password that the hacker used to authenticate himself with the service?
+Summer123
+3. The hacker uploaded a backdoor to gain remote shell access to Zack's PC. What port allowed the hacker to trigger the backdoor? 80
+4. What port did the hacker use for the remote access? 3356
+5. Whats is Zack's credit card number? 344335838553399
+The Hacker also changed the password of Zack's user account. Help Zack to find the password.
+Boot this VM to emulate Zack's PC.
+1. What is the new password for Zack's user account? dummyP4$$123
+2. What is the username and clear text password of the other user using Zack's PC?
+mike:mypassword1
+3. It seems, the hacker created a cron job to execute a new backdoor which allows him to control Zack's PC from his personal network. He hid the new backdoor somewhere in Zack's PC. Locate that new backdoor and find the IP address of the hacker's personal network so that you can trace his location. 133.112.45.109
